@@ -15,13 +15,14 @@ module.exports = {
       summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://romophic.github.io/gatsby-test/`,
     social: {
       twitter: `kylemathews`,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
+    'gatsby-plugin-sitemap',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
